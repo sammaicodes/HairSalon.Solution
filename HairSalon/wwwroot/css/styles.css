@@ -15,7 +15,7 @@ h1,h2,h3,
 h4,h5,h6 {
   color: #f00;
   padding-bottom: 0;
-  font-family:'Kabel LT';
+  font-family: monospace;
 }
 
 div#footer {
