@@ -13,7 +13,7 @@
   @Html.HiddenFor(model => model.StylistId)
 
   <p>Stylist Name: @Html.EditorFor(model => model.StylistName)</p>
-  <p>Speciality: @Html.EditorFor(model => model.StylistName)</p>  
+  <p>Speciality: @Html.EditorFor(model => model.Speciality)</p>  
   <input type="submit" value="Save" />
 }
 <p>@Html.ActionLink("Back to list of stylists", "Index")</p>
