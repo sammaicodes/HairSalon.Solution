@@ -10,7 +10,8 @@
     {
       <h3>No stylists types have been added yet!</h3>
     }
-
+</div>
+<div class="text-left">
   <ul>
     @foreach (Stylist stylist in Model)
     {
@@ -18,14 +19,8 @@
     }
   </ul>
 </div>
-@* <div class="container" style="background-color: #917f7f">
-  <div class="border border-white">
-    
-  </div> *@
-  @* <div class="border border-white">
-    
-  </div>
-</div> *@
+  
+
 
 <p>@Html.ActionLink("Add new stylist", "Create")</p>
 <p>@Html.ActionLink("Home", "Index", "Home")</p>

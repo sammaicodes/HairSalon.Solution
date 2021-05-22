@@ -9,14 +9,16 @@
 <p>Stylist Name: @Html.DisplayFor(model => model.StylistName)</p>
 <p>Speciality: @Html.DisplayFor(model => model.Speciality)</p>
 
-<div>
+<div class="jumbotron" style="background-color:brown">
   <p>List of @Html.DisplayFor(model => model.StylistName)'s clients:</p>
-  <ul>
-    @foreach (var client in ViewBag.Show)
-    {
-      <li>@Html.ActionLink($"{client.ClientName}", "Details","Clients", new { id = client.ClientId })</li>
-    }
-  </ul>
+  <div class="text-left">
+    <ul>
+      @foreach (var client in ViewBag.Show)
+      {
+        <li>@Html.ActionLink($"{client.ClientName}", "Details","Clients", new { id = client.ClientId })</li>
+      }
+    </ul>
+  </div>
 </div>
 <p>@Html.ActionLink("Edit this stylist", "Edit", new { id = Model.StylistId })</p>
 <p>@Html.ActionLink("Delete this stylist", "Delete", new { id = Model.StylistId })</p>

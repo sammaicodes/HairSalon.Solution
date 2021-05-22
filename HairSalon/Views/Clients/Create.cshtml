@@ -10,9 +10,9 @@
 {
   <p>Client Name: @Html.TextBoxFor(model => model.ClientName)</p>
   <p>Client Notes: @Html.TextBoxFor(model => model.ClientNotes)</p>
+  <p>Select your sylist: @Html.DropDownList("StylistId")</p>
+  
 
-  @Html.DropDownList("StylistId")
-
-  <input type="submit" value="Add New Client" class="btn btn-default" />
+  <input type="submit" value="Add New Client Here" class="btn" style="color: white"/>
 }
 <p>@Html.ActionLink("Show all clients", "Index")</p>

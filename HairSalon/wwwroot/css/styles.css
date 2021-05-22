@@ -15,7 +15,7 @@ h1,h2,h3,
 h4,h5,h6 {
   color: #f00;
   padding-bottom: 0;
-  font-family: monospace;
+  font-family: Calibri, Verdana, Helvetica, Sans-Serif;
 }
 
 div#footer {
@@ -29,7 +29,7 @@ div#footer {
 }
 h1{
   color: red;
-  font-family: monospace;
+  font-family: Calibri, Verdana, Helvetica, Sans-Serif;
 }
 input{
   margin: auto;
@@ -41,7 +41,6 @@ input{
 body {
   margin-bottom: 60px;
   min-height: 90vh;
-  background: url("https://www.refinedguy.com/wp-content/uploads/2017/04/Tamagotchi.jpg");
 }
 #titl{
   text-align: center;
